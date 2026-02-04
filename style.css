@@ -55,14 +55,14 @@ nav ul{
     gap: 15px;
     flex-direction: column;
 }
-nav a {
+nav a.active {
     text-decoration: none;
     color: #333;
     font-weight: bold;
     border-radius: 4px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-nav a:hover {
+nav a.active:hover {
     background-color: #e6f2ff; /* background muncul*/
     color: #0077cc; /* warna teks berubah */
 }
